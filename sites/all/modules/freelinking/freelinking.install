@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the freelinking module.
+ */
+
+/**
+ * Implements hook_update_N().
+ *
+ * Input formats using Freelinking filters should not be cached.
+ */
+function freelinking_update_7000() {
+  $formats = db_select('filter', 'f')
+    ->fields('f', array('format'))
+    ->condition('module', 'freelinking');
+  db_update('filter_format')
+    ->expression('cache', 0)
+    ->condition('format', $formats, 'IN')
+    ->execute();
+}
