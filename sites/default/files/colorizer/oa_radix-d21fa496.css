@@ -1,0 +1,177 @@
+body,
+body.overlay {
+  color: #3b3b3b;
+  background-color:#ffffff;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+
+#main-wrapper #main {
+  background-color:#ffffff;
+  padding: 5px;
+}
+
+#page,
+#main-wrapper,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.form-actions {
+  background-color: #ffffff;
+}
+a {
+  color: #0071B3;
+}
+a:hover,
+a:focus {
+  color: #018fe2;
+}
+a:active {
+  color: #23aeff;
+}
+#header,
+.navbar-inner,
+.navbar-inner .panel-panel,
+.navbar-inverse .navbar-inner {
+background-color: #000000;
+background-image: -moz-linear-gradient(top, #b5581a, #000000);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b5581a), to(#000000));
+background-image: -webkit-linear-gradient(top, #b5581a, #000000);
+background-image: -o-linear-gradient(top, #b5581a, #000000);
+background-image: linear-gradient(to bottom, #b5581a, #000000);
+border: none;
+box-shadow: none;
+color: #fffeff;
+}
+.navbar-inner .btn,
+.navbar-inverse .btn.btn-inverse,
+.btn-group > .btn .dropdown-toggle,
+#oa-user-badge .user-badge {
+background-color: #333333;
+background-image: -moz-linear-gradient(top, #000000, #333333);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#333333));
+background-image: -webkit-linear-gradient(top, #000000, #333333);
+background-image: -o-linear-gradient(top, #000000, #333333);
+background-image: linear-gradient(to bottom, #000000, #333333);
+box-shadow: none;
+border-color: #823400;
+color: #fffeff;
+}
+.oa-space-menu .navbar-inner {
+  background-image: none;
+  background-color: #e92b23;
+  color: #fffeff;
+}
+.navbar .oa-space-menu .nav li > a {
+  color: #fffeff;
+}
+.navbar-inverse ul#oa_breadcrumb .btn.btn-inverse,
+.navbar-inner ul#oa_breadcrumb .btn,
+.navbar-inverse #oa-user-badge .user-badge,
+.navbar-inverse #toolbar-menu-button {
+  color: #fffeff;
+}
+.navbar-inverse .nav > li > a,
+.navbar .nav > li > a {
+  color: #fffeff;
+  background-color: transparent !important;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:focus {
+  color: #23aeff;
+}
+.navbar .nav > .active > a:hover,
+.navbar .nav > li > a:hover {
+  color: #018fe2;
+}
+ul#oa_breadcrumb a.dropdown-toggle.btn.btn-inverse,
+.navbar-inner a.dropdown-toggle.btn {
+  background-color: #333333 !important;
+}
+#oa-navbar .panel-panel .panel-pane {
+  border-color: #823400 ! important;
+}
+.navbar-inverse ul#oa_breadcrumb .btn.btn-inverse .caret,
+.navbar-inner .caret {
+border-top: 6px solid #fffeff;
+border-right: 6px solid transparent;
+border-left: 6px solid transparent;
+}
+#oa-navbar-admin li a {
+  color: #fffeff;
+  background-color: transparent !important;
+}
+.sidebar .block {
+  background-color: #ffffff;
+  border-color: #e3e3e3;
+}
+#page-wrapper,
+#footer-wrapper,
+body #footer {
+  background-color: #b5581a;
+}
+
+#page-wrapper a,
+#footer-wrapper a,
+body #footer a {
+  color: #fffeff;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+.oa-banner-overlay,
+.oa-banner-slogan-overlay {
+  color: #fffeff;
+}
+.oa-banner-text,
+.oa-banner-slogan {
+  color: #fffeff;
+}
+.oa-pane .pane-title {
+color: #000000;
+background-color: #ffffff;
+background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+.oa-pane .panel-pane {
+color: #3b3b3b;
+background-color: #ffffff;
+border-color: #e3e3e3;
+}
+.oa-pane {
+border-color: #e3e3e3;
+}
+#oa-navbar .panel-panel .pane-oa-navigation,
+#oa-navbar .panel-panel .pane-oa-space-banner {
+background-color: #b5581a;
+}
+#oa-navbar .panel-panel .pane-oa-navigation .dropdown-menu {
+background-color: #b5581a;
+}
+
+#oa-navbar .panel-panel .pane-oa-navigation li > a,
+#oa-navbar .panel-panel .pane-oa-space-banner li > a {
+color: #fffeff;
+}
+
+#oa-navbar-spaces ul.dropdown-menu .item-list h3 {
+  color: #fffeff;
+}
